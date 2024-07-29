@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "bansleeping",
+	"version": "${version}",
+	"name": "Ban Sleeping",
+	"description": "Bans sleeping in your world!",
+	"authors": [
+		"GalvinPython"
+	],
+	"contact": {
+		"homepage": "https://github.com/GalvinPython/bansleeping-minecraft",
+		"sources": "https://github.com/GalvinPython/bansleeping-minecraft",
+		"issues": "https://github.com/GalvinPython/bansleeping-minecraft/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/nosleep/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"galvin.nosleep.Nosleep"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
