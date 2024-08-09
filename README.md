@@ -1,6 +1,11 @@
 # NoSleep
 NoSleep is a Minecraft Mod for Fabric 1.21 that prevents the player from sleeping in a bed
 
+# Compatible Versions
+|Mod Version|Game Version(s)|Mod Version Title
+|---|---|---|
+|1.0.0|1.21 - 1.21.1|1.0.0+1.21|
+
 # Important Note
 This mod is a **server-side** mod!  
 Playing **single-player** or **hosting a server**? It's required to be installed  
