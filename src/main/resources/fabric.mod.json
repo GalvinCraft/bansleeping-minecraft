@@ -13,11 +13,11 @@
 		"issues": "https://github.com/GalvinPython/bansleeping-minecraft/issues"
 	},
 	"license": "MIT",
-	"icon": "assets/nosleep/icon.png",
+	"icon": "assets/bansleeping/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"galvin.nosleep.Nosleep"
+			"me.imgalvin.bansleeping.BanSleeping"
 		]
 	},
 	"depends": {
