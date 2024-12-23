@@ -8,9 +8,9 @@
 		"GalvinPython"
 	],
 	"contact": {
-		"homepage": "https://github.com/GalvinPython/bansleeping-minecraft",
-		"sources": "https://github.com/GalvinPython/bansleeping-minecraft",
-		"issues": "https://github.com/GalvinPython/bansleeping-minecraft/issues"
+		"homepage": "https://github.com/GalvinCraft/bansleeping-minecraft",
+		"sources": "https://github.com/GalvinCraft/bansleeping-minecraft",
+		"issues": "https://github.com/GalvinCraft/bansleeping-minecraft/issues"
 	},
 	"license": "MIT",
 	"icon": "assets/bansleeping/icon.png",
@@ -22,8 +22,8 @@
 	},
 	"depends": {
 		"fabricloader": ">=0.15.11",
-		"minecraft": "~1.21",
-		"java": ">=21",
+		"minecraft": "~1.20",
+		"java": ">=17",
 		"fabric-api": "*"
 	}
 }
