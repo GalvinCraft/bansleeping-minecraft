@@ -9,9 +9,6 @@ import net.minecraft.util.math.BlockPos;
 public class BanSleeping implements ModInitializer {
 	@Override
 	public void onInitialize() {
-		EntitySleepEvents.ALLOW_SLEEPING.register((PlayerEntity player, BlockPos blockPos) -> {
-			player.sendMessage(Text.of("Sleeping is banned!"), true);
-			return PlayerEntity.SleepFailureReason.OTHER_PROBLEM;
-		});
+		EntitySleepEvents.ALLOW_SLEEPING.register((PlayerEntity player, BlockPos blockPos) -> new PlayerEntity.SleepFailureReason(Text.literal("Sleeping is banned!")));
 	}
 }

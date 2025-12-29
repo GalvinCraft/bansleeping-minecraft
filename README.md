@@ -2,10 +2,18 @@
 Ban Sleeping is a Minecraft Mod for Fabric 1.21 that prevents the player from sleeping in a bed
 
 # Compatible Versions
+[![Supported versions](https://modrinth-shields.imgalvin.me/badge/bansleeping)](https://modrinth.com/mod/bansleeping)
+
+## New system
+Due to the new versioning system, each supported game version has its own mod version file. Please look at the versions badge above for more
+
+## Old system
+*Only applicable for 1.21.10 and below*
+
 | Mod Version | Loader | Game Version(s) | Mod Version File        |
 |-------------|--------|-----------------|-------------------------|
-| 1.0.1       | Fabric | 1.21            | 1.0.1-fabric+1.21.jar   |
-| 1.0.0       | Fabric | 1.21            | 1.0.0-fabric+1.21.jar   |
+| 1.0.1       | Fabric | 1.21-1.21.10    | 1.0.1-fabric+1.21.jar   |
+| 1.0.0       | Fabric | 1.21-1.21.5     | 1.0.0-fabric+1.21.jar   |
 
 # Important Note
 This mod is a **server-side** mod!  
