@@ -11,14 +11,6 @@ Also, the minimum loader and API versions have been standardised to be the minim
 
 I recommend heavily using a mod manager/launcher to help automatically update these dependencies. Modrinth and Prism Launcher are great options for this.
 
-## Old system
-*Only applicable for 1.21.10 and below*
-
-| Mod Version | Loader | Game Version(s) | Mod Version File        |
-|-------------|--------|-----------------|-------------------------|
-| 1.0.1       | Fabric | 1.21-1.21.10    | 1.0.1-fabric+1.21.jar   |
-| 1.0.0       | Fabric | 1.21-1.21.5     | 1.0.0-fabric+1.21.jar   |
-
 # Important Note
 This mod is a **server-side** mod!  
 Playing **single-player** or **hosting a server**? It's required to be installed  
